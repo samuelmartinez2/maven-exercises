@@ -20,6 +20,7 @@ public class Test {
         if (StringUtils.isAllUpperCase(userInput)) {
             System.out.println(StringUtils.lowerCase(userInput));
             String lowCase= StringUtils.lowerCase(userInput);
+            StringUtils.joinWith(",");
             System.out.println(lowCase + " has been turned to lowerCase");
 
         } else
